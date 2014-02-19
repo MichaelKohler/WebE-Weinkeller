@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weinkeller</title>
+
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><b>Weinkeller</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="weinkeller.html">Weinkeller</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="foo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Overview</h1>
+                    <table class="table table-hover" id="overviewtable">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BILD</td>
+                                <td><a href="weinkeller_details.html">FooFooFooFooFooFooFooFooFooFoo</a></td>
+                                <td>
+                                    <button class="btn btn-large btn-info">View</button>
+                                    <button class="btn btn-large btn-warning">Edit</button>
+                                    <button class="btn btn-large btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BILD</td>
+                                <td><a href="weinkeller_details.html">FooFooFooFooFooFooFooFooFoo</a></td>
+                                <td>
+                                    <button class="btn btn-large btn-info">View</button>
+                                    <button class="btn btn-large btn-warning">Edit</button>
+                                    <button class="btn btn-large btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BILD</td>
+                                <td><a href="weinkeller_details.html">FooFooFooFooFooFooFooFooFooFooFooFooFooFooFooFooFooFooFoo</a></td>
+                                <td>
+                                    <button class="btn btn-large btn-info">View</button>
+                                    <button class="btn btn-large btn-warning">Edit</button>
+                                    <button class="btn btn-large btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BILD</td>
+                                <td><a href="weinkeller_details.html">FooFooFooFooFoo</a></td>
+                                <td>
+                                    <button class="btn btn-large btn-info">View</button>
+                                    <button class="btn btn-large btn-warning">Edit</button>
+                                    <button class="btn btn-large btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>New Weinkeller</h2>
+                    <form role="form" action="#" method="post" enctype="plain">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" name="Name" class="form-control" id="name" placeholder="Name for your Weinkeller">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-large btn-info">Add Weinkeller</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+
+</body>
+</html>
